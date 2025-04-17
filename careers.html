@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Careers - Green Trident LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo-container"></div>
+    <script>
+      fetch('logo.html')
+        .then(res => res.text())
+        .then(html => document.getElementById('logo-container').innerHTML = html);
+    </script>
+  Careers
+  =======
+  
+  We offer:
+  - Complex, real-world blockchain data challenges
+  - Freedom to architect at the system level
+  - Direct impact on AI-driven trading products
+
+  Send your CV and favorite GitHub repo to operations@greentrident.xyz
+
+  <div class="nav">
+    <a href="index.html">Home</a> |
+    <a href="use-case.html">Use Case</a> |
+    <a href="careers.html">Careers</a> |
+    <a href="contact.html">Contact Us</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+    background-color: #000;
+    color: #0f0;
+    font-family: monospace;
+    white-space: pre;
+    padding: 0px 20px;
+    font-size: 14px;
+  }
+  a {
+    color: #0f0;
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 57ch;
+    margin: 0 auto;
+    overflow-x: auto;
+  }
+  .ascii-logo {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+  .nav {
+    margin-top: 1em;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .section {
+    margin-top: 1.5em;
+  }
