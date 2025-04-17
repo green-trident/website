@@ -16,9 +16,11 @@ body {
     overflow-x: auto;
   }
   .ascii-logo {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
+    margin-top: -1.5em;
+    margin-bottom: 0.5em;
     line-height: 1;
+    text-align: center;
   }
   .nav {
     margin-top: 1em;
@@ -27,4 +29,9 @@ body {
   }
   .section {
     margin-top: 1.5em;
+  }
+  .header-nav {
+    text-align: center;
+    white-space: nowrap;
+    margin-bottom: 0.5em;
   }

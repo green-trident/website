@@ -7,6 +7,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="header-nav">
+[ <a href="index.html">Home</a> ]
+[ <a href="use-case.html">Case Studies</a> ]
+[ <a href="careers.html">Careers</a> ]
+[ <a href="contact.html">Contact Us</a> ]
+    </div>
     <div id="logo-container"></div>
     <script>
       fetch('logo.html')
@@ -14,7 +20,8 @@
         .then(html => document.getElementById('logo-container').innerHTML = html);
     </script>
   Welcome to Green Trident LLC
-  =============================
+  ============================
+
   We a are boutique consulting and software development house specializing in custom blockchain indexers and real-time data pipelines.
 
   Our ethos:
@@ -24,11 +31,5 @@
   
   We are adopters, contributors and advocates of the <a href="https://sqd.dev">SQD Stack.</a>
 
-  <div class="nav">
-    [ <a href="index.html">Home</a> ]
-    [ <a href="use-case.html">Case Studies</a> ]
-    [ <a href="careers.html">Careers</a> ]
-    [ <a href="contact.html">Contact Us</a> ]
-  </div>
 </body>
 </html>
